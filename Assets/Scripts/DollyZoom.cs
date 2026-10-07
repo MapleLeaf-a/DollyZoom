@@ -34,7 +34,7 @@ public class DollyZoom : MonoBehaviour
         timer += Time.deltaTime;
         float t = timer / duration; //算出插值百分比
 
-        float distance = Mathf.Lerp(startDis, endDis, t); //平滑插值计算当前距离
+        float distance = Mathf.SmoothStep(startDis, endDis, t); //平滑插值计算当前距离
 
         transform.position = target.position - direction * distance; //设置摄像机位置
 

@@ -384,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2031011039}
   startDis: 0.5
-  endDis: 0.3
+  endDis: 0.2
   startFOV: 60
   duration: 1
 --- !u!1 &1099750156
